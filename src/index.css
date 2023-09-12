@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.col-4 {
+    width: 33.33%;
+    padding: 0 15px 30px 15px;
+}
+
+/*.card {*/
+/*    position: relative;*/
+/*    overflow: hidden;*/
+
+/*    border: 1px solid rgba(0, 0, 0, 0.1);*/
+/*    height: 100%;*/
+/*}*/
+
+/*.card-overlay {*/
+/*    width: 100%;*/
+/*    font-style: normal;*/
+/*    font-weight: 400;*/
+/*    font-size: 30px;*/
+/*    line-height: 37px;*/
+/*    !*text-transform: uppercase;*!*/
+/*    color: #000;*/
+/*    background: #FAFAFA;*/
+/*    position: absolute;*/
+/*    padding: 35px;*/
+/*    margin-top: 460px;*/
+/*    bottom: -200px;*/
+/*}*/
+
+/*.card:hover .card-overlay {*/
+/*    transition: 1.2s;*/
+/*    bottom: 0;*/
+/*}*/
+
+/*.card img {*/
+/*    width: 100%;*/
+/*}*/
+
+.card-discount {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    color: #030D15;
+}
+
+
+/*.card-discount-price {*/
+/*    font-weight: 500;*/
+/*    font-size: 16px;*/
+/*    line-height: 27px;*/
+/*    !*text-align: center;*!*/
+/*    color: #030D15;*/
+/*}*/
+
+.card-price {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 27px;
+    /*text-align: center;*/
+    text-decoration-line: line-through;
+    color: #030D15;
+    opacity: 0.5;
+}
+
+.col-6 {
+    width: 50%;
+    padding: 0 15px;
+}
